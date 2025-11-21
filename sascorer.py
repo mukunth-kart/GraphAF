@@ -21,7 +21,11 @@ from rdkit import Chem
 from rdkit.Chem import rdMolDescriptors
 # from rdkit.six.moves import cPickle
 import pickle as cPickle
-from rdkit.six import iteritems
+#from rdkit.six import iteritems
+
+# Add this near the top of the file
+def iteritems(d):
+    return d.items()
 
 import math
 from collections import defaultdict

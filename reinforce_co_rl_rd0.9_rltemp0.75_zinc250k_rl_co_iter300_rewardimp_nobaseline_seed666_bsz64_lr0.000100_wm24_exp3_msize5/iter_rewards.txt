@@ -1,0 +1,11 @@
+cur_iter: 0 | reward: 3.79927 | score: 2.01802 | loss: 0.60325
+cur_iter: 1 | reward: 0.08350 | score: -1.74463 | loss: 250.30014
+cur_iter: 2 | reward: 3.72613 | score: 1.88238 | loss: 0.46832
+cur_iter: 3 | reward: 3.70776 | score: 1.87963 | loss: 0.61087
+cur_iter: 4 | reward: 3.22079 | score: 1.34579 | loss: 0.66730
+cur_iter: 5 | reward: 3.25397 | score: 1.36334 | loss: 0.67691
+cur_iter: 6 | reward: 4.84605 | score: 3.03653 | loss: 0.38477
+cur_iter: 7 | reward: 3.24174 | score: 1.32110 | loss: 0.66715
+cur_iter: 8 | reward: 4.35470 | score: 2.41720 | loss: 0.60828
+cur_iter: 9 | reward: 4.50250 | score: 2.61362 | loss: 60.72783
+cur_iter: 10 | reward: 5.45952 | score: 3.53764 | loss: 0.19717

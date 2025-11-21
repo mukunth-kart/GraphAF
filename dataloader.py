@@ -61,7 +61,7 @@ class PretrainZinkDataset(Dataset):
         local_perm = np.random.permutation(mol_size) #(first perm graph)
         adj_perm = pure_adj[np.ix_(local_perm, local_perm)]
         adj_perm_matrix = np.asmatrix(adj_perm)
-        G = nx.from_numpy_matrix(adj_perm_matrix)
+        G = nx.from_numpy_array(adj_perm_matrix)
 
         start_idx = np.random.randint(adj_perm.shape[0]) # operated on permed graph
         bfs_perm = np.array(bfs_seq(G, start_idx)) # get a bfs order of permed graph
@@ -116,7 +116,7 @@ class ConstrainOptim_Zink800(Dataset):
         local_perm = np.random.permutation(mol_size) #(first perm graph)
         adj_perm = pure_adj[np.ix_(local_perm, local_perm)]
         adj_perm_matrix = np.asmatrix(adj_perm)
-        G = nx.from_numpy_matrix(adj_perm_matrix)
+        G = nx.from_numpy_array(adj_perm_matrix)
 
         start_idx = np.random.randint(adj_perm.shape[0]) # operated on permed graph
         bfs_perm = np.array(bfs_seq(G, start_idx)) # get a bfs order of permed graph
